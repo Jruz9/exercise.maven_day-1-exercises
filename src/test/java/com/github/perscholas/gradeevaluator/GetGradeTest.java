@@ -14,6 +14,7 @@ public class GetGradeTest {
 
         // when
         Character actual = gradeEvaluator.getGrade(score);
+
         // then
         Assert.assertEquals(actual, expectation);
     }
