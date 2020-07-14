@@ -13,8 +13,7 @@ public class GetGradeTest {
         GradeEvaluator gradeEvaluator = new GradeEvaluator();
 
         // when
-        Boolean actual = gradeEvaluator.isGradeA(score);
-
+        Character actual = gradeEvaluator.getGrade(score);
         // then
         Assert.assertEquals(actual, expectation);
     }
